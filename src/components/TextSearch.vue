@@ -5,8 +5,8 @@
     </div>
     <div class="card-body">
       <div id="app">
-          <vue-bootstrap4-table :rows="rows" :columns="columns" :config="config">
-          </vue-bootstrap4-table>
+          <VueBootstrap4Table :rows="rows" :columns="columns" :config="config">
+          </VueBootstrap4Table>
       </div>
     </div>
   </div>
